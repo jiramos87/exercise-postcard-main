@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+}
+
+body {
+    background-color: rgb(37, 12, 12);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    background-color: white;
+    width: 500px;
+    padding: 30px 20px 30px 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    
+    background-image: url(https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/4geeks.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-content {
+    width: 50%;
+    font-size: 18px;
+}
+
+.form-content {
+    width: 50%;
+    padding-top: -30px;
+}
+
+.form-input {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border: solid 1px gray; 
+    border-top: none; 
+    border-left: none;
+    border-right: none; 
+}
+
+.send-button-div {
+  
+    margin: auto; 
+    padding-top: 22px; 
+    padding-bottom: 28px;
+}
+
+.send-button {
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    padding-top: 1px;
+    margin-top: 1px;  
+    background-color: rgb(180, 179, 179);
+    border: solid 1px gray; 
+    border-top: none; 
+    border-left: none;
+    border-right: none; 
+
+}
